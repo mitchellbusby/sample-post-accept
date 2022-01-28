@@ -7,8 +7,8 @@
     "parcel": "^2.2.1"
   },
   "scripts": {
-    "start": "parcel",
-    "build": "parcel build"
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
   },
   "dependencies": {
     "react": "^17.0.2",
