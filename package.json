@@ -7,7 +7,7 @@
   },
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html --dist-dir ./docs"
+    "build": "parcel build src/index.html --dist-dir ./docs --public-url /sample-post-accept/"
   },
   "dependencies": {
     "react": "^17.0.2",
