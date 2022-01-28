@@ -1,14 +1,13 @@
 {
   "name": "post-accept-sample",
   "version": "1.0.0",
-  "main": "index.js",
   "license": "MIT",
   "devDependencies": {
     "parcel": "^2.2.1"
   },
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html --dist-dir ./docs"
   },
   "dependencies": {
     "react": "^17.0.2",
